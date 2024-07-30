@@ -4,7 +4,7 @@
   text-align: center;
 
   img {
-    max-width: 250px;
+    max-width: 450px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
@@ -20,6 +20,8 @@
   a:hover {
     transform: scale(1.05);
   }
+
+  /* Ensure this selector is outside of the container if it applies globally */
 }
 
 .projectsContainer {
@@ -27,9 +29,11 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  
 }
 
-@media (width >= 800px) {
+/* Change width to min-width for better responsiveness */
+@media (min-width: 800px) {
   .projectsContainer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,3 +41,4 @@
     padding: 0 30px;
   }
 }
+
