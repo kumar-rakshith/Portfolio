@@ -42,13 +42,10 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/kumar-rakshith" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/rakshith-kumar-haleyangadi" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
