@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import Anganawadi_Administration from '../../assets/Anganawadi_Administration.png';
 import Webuild from '../../assets/Webuild.png';
-import Hospital from '../../assets/Hospital';
-import snake from '../../assets/Snake_Game';
+import Hospital from '../../assets/Hospital.png';
+import snake from '../../assets/Snake-game.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
