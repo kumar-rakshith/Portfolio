@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import Anganawadi_Administration from '../../assets/Anganawadi_Administration.png';
 import Webuild from '../../assets/Webuild.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Hospital from '../../assets/Hospital';
+import snake from '../../assets/Snake_Game';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -23,13 +23,13 @@ function Projects() {
           p="WeBuild is an innovative web-based platform designed to transform the construction industry by enhancing communication, transparency, and project management. It offers a user-friendly interface for clients and robust tools for administrators, ensuring efficient and high-quality construction project execution"
         />
         <ProjectCard
-          src={hipsster}
+          src={Hospital}
           link="https://github.com/kumar-rakshith/Snake_Game.git"
           h3="Hospital Management System"
           p="Hospital Management System A console-based Java application for managing hospital data using MySQL. Key features include adding and viewing patients, viewing doctors, and booking appointments. The project utilizes JDBC for database connectivity. Future plans include enhancing features and adding a GUI."
         />
         <ProjectCard
-          src={fitLift}
+          src={snake}
           link="https://github.com/kumar-rakshith/Hospital_Management_System.git"
           h3="Snake Game"
           p="A classic Snake game implemented in Java using Swing. Control the snake with arrow keys, eat apples to grow, and avoid collisions. Includes score tracking and a restart button. Ideal for learning game development and for fun."
