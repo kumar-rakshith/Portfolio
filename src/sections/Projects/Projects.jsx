@@ -25,14 +25,14 @@ function Projects() {
         <ProjectCard
           src={hipsster}
           link="https://github.com/kumar-rakshith/Snake_Game.git"
-          h3="Hipsster"
-          p="Glasses Shop"
+          h3="Hospital Management System"
+          p="Hospital Management System A console-based Java application for managing hospital data using MySQL. Key features include adding and viewing patients, viewing doctors, and booking appointments. The project utilizes JDBC for database connectivity. Future plans include enhancing features and adding a GUI."
         />
         <ProjectCard
           src={fitLift}
           link="https://github.com/kumar-rakshith/Hospital_Management_System.git"
-          h3="FitLift"
-          p="Fitness App"
+          h3="Snake Game"
+          p="A classic Snake game implemented in Java using Swing. Control the snake with arrow keys, eat apples to grow, and avoid collisions. Includes score tracking and a restart button. Ideal for learning game development and for fun."
         />
       </div>
     </section>
