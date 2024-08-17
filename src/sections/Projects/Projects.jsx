@@ -4,12 +4,22 @@ import Webuild from '../../assets/Webuild.png';
 import Hospital from '../../assets/Hospital';
 import snake from '../../assets/Snake_Game';
 import ProjectCard from '../../common/ProjectCard';
+import Youtube from '../../assets/yt.jpg'
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+
+
+      <ProjectCard
+          src={Youtube}
+          link="https://rakshith-youtube-clone.netlify.app"
+          h3="YouTube Clone"
+          p="YouTube clone built with React JS and Material UI 5. Features include responsive design, video playback, and search functionality. Fetches video data via RapidAPI. Explore a sleek UI and dynamic content with this intuitive video streaming app."
+        />
+
         <ProjectCard
           src={Anganawadi_Administration}
           link="https://github.com/kumar-rakshith/Anganawadi_Administration.git"
