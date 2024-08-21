@@ -28,7 +28,7 @@ function Projects() {
         />
         <ProjectCard
           src={Webuild}
-          link="https://github.com/kumar-rakshith/WeBuild.git"
+          link="https://rakshith-webuild.netlify.app/"
           h3="WeBuild"
           p="WeBuild is an innovative web-based platform designed to transform the construction industry by enhancing communication, transparency, and project management. It offers a user-friendly interface for clients and robust tools for administrators, ensuring efficient and high-quality construction project execution"
         />
