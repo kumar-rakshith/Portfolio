@@ -68,13 +68,15 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 80vh;
+  justify-content: space-between;
+  text-align: justify;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 @media (width >= 800px) {

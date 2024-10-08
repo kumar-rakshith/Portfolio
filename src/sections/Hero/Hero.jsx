@@ -37,10 +37,9 @@ function Hero() {
       <div className={styles.info}>
         <h1>
           RAKSHITH
-          <br />
           Kumar
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Developer</h2>
         <span>
           <a href="https://github.com/kumar-rakshith" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -50,10 +49,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Seeking a position where I can apply my passion for continuous improvement and advanced web development skills. With an MCA and extensive project experience, I aim to drive innovative development efforts.
         </p>
-        <a href={CV} download>
+        <a href={CV} target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
         </a>
       </div>
