@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/Design uten navn.png';
 import sun from '../../assets/sun.svg';
@@ -13,14 +14,31 @@ import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
+  const containerStyle = {
+    margin: isSmallScreen ? '20px' : '0', // Set margin for small devices
+  };
+
   return (
-    <section id="hero" className={styles.container}>
+    <section id="hero" className={styles.container} style={containerStyle}>
       <div className={styles.colorModeContainer}>
         <img
           src={heroImg}
